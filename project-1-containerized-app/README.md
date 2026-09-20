@@ -169,30 +169,38 @@ project-1-containerized-app/
     ├── 02-challenge.png
     ├── 03-answer-feedback.png
     └── 04-results.png
+
 ## 🖥️ Application Screenshots
 
 ### Application Overview
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/01-homepage.png" alt="Cloud Ops Challenge Homepage">
-    </td>
-    <td width="50%">
-      <img src="screenshots/02-challenge.png" alt="Active Cloud Ops Challenge">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/03-answer-feedback.png" alt="Cloud Ops Challenge Answer Feedback">
-    </td>
-    <td width="50%">
-      <img src="screenshots/04-results.png" alt="Cloud Ops Challenge Mission Complete">
-    </td>
-  </tr>
-</table>
+The following screenshots demonstrate the Cloud Ops Challenge application from the initial homepage through an active challenge, answer feedback, and the final mission results.
 
-The screenshots showcase the application homepage, active challenge interface, answer feedback, and final mission results.
+#### 1. Application Homepage
+
+![Cloud Ops Challenge Homepage](screenshots/01-homepage.png)
+
+*The application homepage introducing the Cloud Ops Challenge.*
+
+#### 2. Active Challenge
+
+![Active Cloud Ops Challenge](screenshots/02-challenge.png)
+
+*The active challenge interface where users interact with the application.*
+
+#### 3. Answer Feedback
+
+![Cloud Ops Challenge Answer Feedback](screenshots/03-answer-feedback.png)
+
+*The answer feedback screen showing the result of a submitted challenge response.*
+
+#### 4. Mission Complete
+
+![Cloud Ops Challenge Mission Complete](screenshots/04-results.png)
+
+*The final results screen showing completion of the Cloud Ops Challenge.*
+
+---
 
 Verification
 
