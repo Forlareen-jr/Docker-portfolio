@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+    image: folarin-docker-app:v1
+    container_name: docker-lab-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Cloud Ops Challenge by Folarin Koyum - An interactive Cloud and DevOps learning game."
+    >
+
+    <meta
+        name="author"
+        content="Folarin Koyum"
+    >
+
+    <title>
+        Cloud Ops Challenge | Folarin Koyum
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         BACKGROUND
+         ===================================================== -->
+
+    <div class="background-grid"></div>
+
+    <div class="glow glow-one"></div>
+
+    <div class="glow glow-two"></div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
+
+    <header class="navbar">
+
+        <a
+            href="#home"
+            class="brand"
+            aria-label="Cloud Ops Challenge home"
+        >
+
+            <span class="brand-icon">
+                ☁
+            </span>
+
+            <span>
+
+                <strong>
+                    Cloud Ops
+                </strong>
+
+                <b>
+                    Challenge
+                </b>
+
+                <small>
+                    BY FOLARIN KOYUM
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav
+            class="nav-links"
+            aria-label="Main navigation"
+        >
+
+            <a
+                href="#home"
+                class="nav-link active"
+            >
+                Home
+            </a>
+
+            <a
+                href="#challenge"
+                class="nav-link"
+            >
+                Challenge
+            </a>
+
+            <a
+                href="#architecture"
+                class="nav-link"
+            >
+                Architecture
+            </a>
+
+            <a
+                href="#tech-stack"
+                class="nav-link"
+            >
+                Tech Stack
+            </a>
+
+        </nav>
+
+
+        <div class="system-status">
+
+            <span class="status-dot"></span>
+
+            SYSTEM ONLINE
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+             ================================================= -->
+
+        <section
+            id="home"
+            class="hero"
+        >
+
+            <div class="hero-content">
+
+
+                <div class="eyebrow">
+
+                    <span></span>
+
+                    CLOUD • DEVOPS • CONTAINERS
+
+                </div>
+
+
+                <div class="creator-badge">
+
+                    BUILT BY
+
+                    <strong>
+                        FOLARIN KOYUM
+                    </strong>
+
+                </div>
+
+
+                <h1>
+
+                    Think Like a
+
+                    <span>
+                        Cloud Engineer.
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    Test your knowledge of cloud infrastructure,
+                    containers, networking and DevOps through
+                    an interactive technical challenge.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+
+                    <button
+                        id="start-game"
+                        class="primary-btn"
+                    >
+
+                        <span>
+                            ▶
+                        </span>
+
+                        START CHALLENGE
+
+                    </button>
+
+
+                    <a
+                        href="#architecture"
+                        class="secondary-btn"
+                    >
+
+                        VIEW ARCHITECTURE
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </a>
+
+
+                </div>
+
+
+                <div class="hero-meta">
+
+
+                    <div>
+
+                        <strong>
+                            10
+                        </strong>
+
+                        <span>
+                            Challenges
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            1000+
+                        </strong>
+
+                        <span>
+                            Possible XP
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            ∞
+                        </strong>
+
+                        <span>
+                            Replayability
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CLOUD VISUAL -->
+
+            <div class="hero-visual">
+
+
+                <div class="orbit orbit-one"></div>
+
+                <div class="orbit orbit-two"></div>
+
+
+                <div class="cloud-core">
+
+
+                    <div class="cloud-symbol">
+                        ☁
+                    </div>
+
+
+                    <div class="server-stack">
+
+                        <div></div>
+
+                        <div></div>
+
+                        <div></div>
+
+                    </div>
+
+
+                    <span class="core-label">
+                        CLOUD OPS
+                    </span>
+
+
+                </div>
+
+
+                <div class="floating-icon icon-docker">
+                    ◆
+                </div>
+
+                <div class="floating-icon icon-linux">
+                    ⌘
+                </div>
+
+                <div class="floating-icon icon-nginx">
+                    N
+                </div>
+
+                <div class="floating-icon icon-cloud">
+                    ☁
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             DASHBOARD
+             ================================================= -->
+
+        <section class="dashboard">
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon blue">
+                    ☁
+                </div>
+
+
+                <div>
+
+                    <span class="card-label">
+                        CHALLENGES
+                    </span>
+
+                    <strong>
+                        10
+                    </strong>
+
+                    <small>
+                        Cloud scenarios
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon purple">
+                    ★
+                </div>
+
+
+                <div>
+
+                    <span class="card-label">
+                        BASE XP
+                    </span>
+
+                    <strong>
+                        100 XP
+                    </strong>
+
+                    <small>
+                        Per correct answer
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon orange">
+                    🔥
+                </div>
+
+
+                <div>
+
+                    <span class="card-label">
+                        STREAK BONUS
+                    </span>
+
+                    <strong>
+                        +25 XP
+                    </strong>
+
+                    <small>
+                        Consecutive answers
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon green">
+                    ✓
+                </div>
+
+
+                <div>
+
+                    <span class="card-label">
+                        DIFFICULTY
+                    </span>
+
+                    <strong>
+                        RISING
+                    </strong>
+
+                    <small>
+                        Learn as you play
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             GAME
+             ================================================= -->
+
+        <section
+            id="challenge"
+            class="game-section"
+        >
+
+
+            <div class="section-heading">
+
+
+                <div>
+
+                    <span class="section-tag">
+                        MISSION CONTROL
+                    </span>
+
+
+                    <h2>
+
+                        Cloud Ops
+
+                        <span>
+                            Challenge
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <div class="live-score">
+
+                    <span>
+                        XP
+                    </span>
+
+                    <strong id="score">
+                        0
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="game-layout">
+
+
+                <!-- GAME CARD -->
+
+                <div class="game-card">
+
+
+                    <div class="game-top">
+
+
+                        <div>
+
+                            <span class="challenge-number">
+
+                                CHALLENGE
+
+                                <b id="question-number">
+                                    01
+                                </b>
+
+                                /10
+
+                            </span>
+
+                        </div>
+
+
+                        <div class="progress-container">
+
+
+                            <div class="progress-track">
+
+                                <div
+                                    id="progress-bar"
+                                    class="progress-bar"
+                                    style="width: 10%;"
+                                ></div>
+
+                            </div>
+
+
+                            <span id="progress-text">
+                                10%
+                            </span>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="question-area">
+
+
+                        <div class="question-icon">
+
+                            <span>
+                                ☁
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span class="question-category">
+                                CLOUD COMPUTE
+                            </span>
+
+
+                            <h3 id="question">
+
+                                Which cloud resource provides
+                                scalable compute capacity for
+                                running applications?
+
+                            </h3>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div
+                        id="answers"
+                        class="answers"
+                    >
+
+
+                        <button
+                            class="answer"
+                            data-index="0"
+                        >
+
+                            <span class="answer-letter">
+                                A
+                            </span>
+
+                            <span>
+                                Virtual Machine
+                            </span>
+
+                        </button>
+
+
+                        <button
+                            class="answer"
+                            data-index="1"
+                        >
+
+                            <span class="answer-letter">
+                                B
+                            </span>
+
+                            <span>
+                                Storage Account
+                            </span>
+
+                        </button>
+
+
+                        <button
+                            class="answer"
+                            data-index="2"
+                        >
+
+                            <span class="answer-letter">
+                                C
+                            </span>
+
+                            <span>
+                                Virtual Network
+                            </span>
+
+                        </button>
+
+
+                        <button
+                            class="answer"
+                            data-index="3"
+                        >
+
+                            <span class="answer-letter">
+                                D
+                            </span>
+
+                            <span>
+                                Load Balancer
+                            </span>
+
+                        </button>
+
+
+                    </div>
+
+
+
+                    <div
+                        id="feedback"
+                        class="feedback"
+                    ></div>
+
+
+
+                    <div class="game-footer">
+
+
+                        <span id="streak">
+                            🔥 Streak: 0
+                        </span>
+
+
+                        <button
+                            id="next-btn"
+                            class="next-btn"
+                            disabled
+                        >
+
+                            NEXT
+
+                            <span>
+                                →
+                            </span>
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- GAME SIDEBAR -->
+
+                <aside class="game-sidebar">
+
+
+                    <div class="side-card">
+
+
+                        <div class="side-card-header">
+
+                            <span>
+                                YOUR RUN
+                            </span>
+
+                            <span class="live-indicator">
+                                LIVE
+                            </span>
+
+                        </div>
+
+
+                        <div class="run-stat">
+
+                            <span>
+                                Current XP
+                            </span>
+
+                            <strong id="side-score">
+                                0
+                            </strong>
+
+                        </div>
+
+
+                        <div class="run-stat">
+
+                            <span>
+                                Correct
+                            </span>
+
+                            <strong id="side-correct">
+                                0/10
+                            </strong>
+
+                        </div>
+
+
+                        <div class="run-stat">
+
+                            <span>
+                                Best Streak
+                            </span>
+
+                            <strong id="side-streak">
+                                0
+                            </strong>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="mission-card">
+
+
+                        <div class="mission-icon">
+                            🚀
+                        </div>
+
+
+                        <h3>
+                            Mission Brief
+                        </h3>
+
+
+                        <p>
+
+                            Answer technical questions,
+                            build your streak and earn XP.
+
+                        </p>
+
+
+                        <div class="mission-line">
+
+                            <span></span>
+
+                            <span></span>
+
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </aside>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             RESULTS
+             ================================================= -->
+
+        <section
+            id="results"
+            class="results-section hidden"
+        >
+
+
+            <div class="results-card">
+
+
+                <div class="result-icon">
+                    🏆
+                </div>
+
+
+                <span class="section-tag">
+                    MISSION COMPLETE
+                </span>
+
+
+                <h2>
+
+                    Challenge
+
+                    <span>
+                        Complete
+                    </span>
+
+                </h2>
+
+
+                <p id="result-message">
+
+                    Excellent work, Cloud Engineer.
+
+                </p>
+
+
+
+                <div class="result-stats">
+
+
+                    <div>
+
+                        <span>
+                            FINAL XP
+                        </span>
+
+                        <strong id="final-score">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            CORRECT
+                        </span>
+
+                        <strong id="final-correct">
+                            0/10
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            ACCURACY
+                        </span>
+
+                        <strong id="final-accuracy">
+                            0%
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            BEST STREAK
+                        </span>
+
+                        <strong id="final-streak">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <button
+                    id="restart-game"
+                    class="primary-btn"
+                >
+
+                    ↻ PLAY AGAIN
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             ARCHITECTURE
+             ================================================= -->
+
+        <section
+            id="architecture"
+            class="info-section"
+        >
+
+
+            <div class="section-heading centered">
+
+
+                <span class="section-tag">
+                    HOW IT WORKS
+                </span>
+
+
+                <h2>
+
+                    Containerized
+
+                    <span>
+                        Architecture
+                    </span>
+
+                </h2>
+
+
+                <p>
+
+                    The game is intentionally simple under
+                    the hood, demonstrating core Docker
+                    technologies.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="architecture-flow">
+
+
+                <div class="architecture-node">
+
+                    <div class="node-icon">
+                        🌐
+                    </div>
+
+                    <strong>
+                        Browser
+                    </strong>
+
+                    <span>
+                        User Interface
+                    </span>
+
+                </div>
+
+
+                <div class="flow-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-node">
+
+                    <div class="node-icon">
+                        ◆
+                    </div>
+
+                    <strong>
+                        Docker
+                    </strong>
+
+                    <span>
+                        Container Runtime
+                    </span>
+
+                </div>
+
+
+                <div class="flow-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-node">
+
+                    <div class="node-icon">
+                        N
+                    </div>
+
+                    <strong>
+                        Nginx
+                    </strong>
+
+                    <span>
+                        Web Server
+                    </span>
+
+                </div>
+
+
+                <div class="flow-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-node">
+
+                    <div class="node-icon">
+                        ⚡
+                    </div>
+
+                    <strong>
+                        Game
+                    </strong>
+
+                    <span>
+                        HTML / CSS / JS
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             TECHNOLOGY STACK
+             ================================================= -->
+
+        <section
+            id="tech-stack"
+            class="info-section tech-section"
+        >
+
+
+            <div class="section-heading centered">
+
+
+                <span class="section-tag">
+                    TECHNOLOGY
+                </span>
+
+
+                <h2>
+
+                    Built With
+
+                    <span>
+                        Real Tools
+                    </span>
+
+                </h2>
+
+
+            </div>
+
+
+
+            <div class="tech-grid">
+
+
+                <div class="tech-card">
+
+                    <span>
+                        ◆
+                    </span>
+
+                    <strong>
+                        Docker
+                    </strong>
+
+                    <p>
+                        Container runtime
+                    </p>
+
+                </div>
+
+
+
+                <div class="tech-card">
+
+                    <span>
+                        ▣
+                    </span>
+
+                    <strong>
+                        Docker Compose
+                    </strong>
+
+                    <p>
+                        Application orchestration
+                    </p>
+
+                </div>
+
+
+
+                <div class="tech-card">
+
+                    <span>
+                        N
+                    </span>
+
+                    <strong>
+                        Nginx
+                    </strong>
+
+                    <p>
+                        Web server
+                    </p>
+
+                </div>
+
+
+
+                <div class="tech-card">
+
+                    <span>
+                        ▲
+                    </span>
+
+                    <strong>
+                        Alpine Linux
+                    </strong>
+
+                    <p>
+                        Lightweight base image
+                    </p>
+
+                </div>
+
+
+
+                <div class="tech-card">
+
+                    <span>
+                        &lt;/&gt;
+                    </span>
+
+                    <strong>
+                        HTML / CSS
+                    </strong>
+
+                    <p>
+                        User interface
+                    </p>
+
+                </div>
+
+
+
+                <div class="tech-card">
+
+                    <span>
+                        JS
+                    </span>
+
+                    <strong>
+                        JavaScript
+                    </strong>
+
+                    <p>
+                        Game logic
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+
+        <a
+            href="#home"
+            class="footer-brand"
+        >
+
+            ☁ Cloud Ops Challenge
+
+            <span>
+                by Folarin Koyum
+            </span>
+
+        </a>
+
+
+        <div class="footer-links">
+
+
+            <a href="#challenge">
+                Play
+            </a>
+
+
+            <a href="#architecture">
+                Architecture
+            </a>
+
+
+            <a href="#tech-stack">
+                Technology
+            </a>
+
+
+        </div>
+
+
+        <span>
+
+            Docker • Nginx • Alpine • JavaScript
+
+        </span>
+
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
