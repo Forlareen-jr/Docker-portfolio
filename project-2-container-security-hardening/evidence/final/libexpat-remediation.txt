@@ -1,0 +1,5 @@
+libexpat policy:
+  2.8.5-r0:
+    lib/apk/db/installed
+    https://dl-cdn.alpinelinux.org/alpine/v3.24/main
+libexpat-2.8.5-r0 x86_64 {expat} (MIT) [installed]

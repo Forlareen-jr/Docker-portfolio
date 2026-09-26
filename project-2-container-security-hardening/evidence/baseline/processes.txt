@@ -1,0 +1,6 @@
+PID   USER     TIME  COMMAND
+    1 root      0:00 nginx: master process nginx -g daemon off;
+   36 nginx     0:00 nginx: worker process
+   37 nginx     0:00 nginx: worker process
+   38 nginx     0:00 nginx: worker process
+   82 root      0:00 ps aux

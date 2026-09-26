@@ -1,0 +1,8 @@
+User=nginx
+Privileged=false
+ReadonlyRootfs=false
+CapDrop=null
+CapAdd=null
+SecurityOpt=null
+NetworkMode=bridge
+Ports={"8080/tcp":[{"HostIp":"","HostPort":"8081"}]}

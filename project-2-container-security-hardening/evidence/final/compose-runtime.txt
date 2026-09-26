@@ -1,0 +1,8 @@
+User=nginx
+ReadonlyRootfs=true
+CapDrop=[ALL]
+SecurityOpt=[no-new-privileges:true]
+Tmpfs=map[/tmp:rw,noexec,nosuid,nodev,size=64m]
+Privileged=false
+NetworkMode=project-2-container-security-hardening_hardened-web
+Ports=map[8080/tcp:[{invalid IP 8088}]]

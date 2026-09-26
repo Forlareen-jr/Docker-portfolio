@@ -1,0 +1,30 @@
+services:
+  web:
+    build:
+      context: .
+    image: folarin-docker-app:hardened-v4
+    container_name: docker-lab-app-hardened
+    ports:
+      - "8088:8080"
+
+    read_only: true
+
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=64m
+
+    cap_drop:
+      - ALL
+
+    security_opt:
+      - no-new-privileges:true
+
+    privileged: false
+
+    restart: unless-stopped
+
+    networks:
+      - hardened-web
+
+networks:
+  hardened-web:
+    driver: bridge

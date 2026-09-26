@@ -1,0 +1,5 @@
+Image=folarin-docker-app:hardened-v4
+ImageID=sha256:7a43332923473ddf3b31e404c24808ca6d848dc9dbfe0a7018ea09476d68ad8c
+User=nginx
+Entrypoint=[nginx]
+Cmd=[-g daemon off;]

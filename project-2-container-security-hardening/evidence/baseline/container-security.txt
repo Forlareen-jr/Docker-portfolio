@@ -1,0 +1,8 @@
+User=
+Privileged=false
+ReadonlyRootfs=false
+CapDrop=null
+CapAdd=null
+SecurityOpt=null
+NetworkMode=project-1-containerized-app_default
+Ports={"80/tcp":[{"HostIp":"","HostPort":"8080"}]}
